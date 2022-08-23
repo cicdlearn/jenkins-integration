@@ -15,7 +15,7 @@ pipeline {
             steps {
                script {
                     echo "Hi"
-                    sleep(time:10,unit:"SECONDS")
+                    sleep(time:5,unit:"SECONDS")
                     echo "bye"
                }
             }
